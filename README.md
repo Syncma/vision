@@ -1,11 +1,12 @@
 # vision
 人脸识别
 
-说明
+# 说明
 人脸识别，基于bottle框架开发，采用国内七牛存储，百度人脸识别技术
 
 
-项目主要结构
+# 项目主要结构
+```
 ├── Dockerfile
 ├── gunicorn_logger.py
 ├── pytest.ini
@@ -49,13 +50,14 @@
     ├── tables.py                   -初始化表
     ├── utils.py                    -组件模块
     └── validators.py               -数据验证
+```
 
-
-运行环境
+# 运行环境
 python 3.6.7
 
 
-功能说明
+# 功能说明
+```
     简单web服务
 
     1.首先百度云申请人脸识别, 创建应用获取的API Key及Secret Key
@@ -77,7 +79,7 @@ python 3.6.7
     提供两个接口：
     1./api/v1/upload  -图片上传
     2./api/v1/storages/<storage_id>/detect-face -图片检测，是否是人脸图片
+```
 
-
-运行方式
+# 运行方式
     python run.py
