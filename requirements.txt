@@ -1,4 +1,4 @@
-bottle==0.12.13
+bottle==0.12.19
 gevent==1.2.2
 gunicorn==19.7.1
 peewee==2.10.1
